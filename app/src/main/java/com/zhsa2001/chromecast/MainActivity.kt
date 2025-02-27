@@ -77,7 +77,7 @@ class MainActivity : AppCompatActivity() {
 
         val mediaInfo =
             MediaInfo.Builder("https://vdt-m.odkl.ru/?pct=1&expires=1740697093746&srcIp=46.138.67.120&pr=40&srcAg=GECKO&ms=185.100.104.136&type=5&sig=aGXIPmU2YtM&ct=0&clientType=45&id=228121840273")
-                .setContentType("video/mp4").setStreamType(MediaInfo.STREAM_TYPE_BUFFERED)
+                .setContentType("videos/mp4").setStreamType(MediaInfo.STREAM_TYPE_BUFFERED)
                 .setMetadata(mediaMetadata).build()
 
         val remoteMediaClient = currentSession?.remoteMediaClient
