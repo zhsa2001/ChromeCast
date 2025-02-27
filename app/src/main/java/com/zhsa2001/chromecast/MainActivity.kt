@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val mediaInfo =
-            MediaInfo.Builder("https://vk.com/away.php?to=https%3A%2F%2Fvideolink-test.mycdn.me%2F%3Fpct%3D1%26sig%3D6QNOvp0y3BE%26ct%3D0%26clientType%3D45%26mid%3D193241622673%26type%3D5&utf=1")
+            MediaInfo.Builder("https://vdt-m.odkl.ru/?pct=1&expires=1740697093746&srcIp=46.138.67.120&pr=40&srcAg=GECKO&ms=185.100.104.136&type=5&sig=aGXIPmU2YtM&ct=0&clientType=45&id=228121840273")
                 .setContentType("video/mp4").setStreamType(MediaInfo.STREAM_TYPE_BUFFERED)
                 .setMetadata(mediaMetadata).build()
 
